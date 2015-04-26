@@ -8,7 +8,7 @@
 .img-responsxive {
 display: inline-block;
 max-width: 100%;
-height: auto;
+height:  100%;
 overflow: hidden;
 
 }
@@ -25,3 +25,9 @@ overflow: hidden;
 overflow-x: hidden;
 overflow-y: hidden;
 }
+ hr {
+ width :30%;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1.5px 0;
+ }
