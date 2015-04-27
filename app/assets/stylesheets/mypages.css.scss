@@ -31,3 +31,26 @@ overflow-y: hidden;
   border-style: solid none;
   border-width: 1.5px 0;
  }
+
+ .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+.h5 {
+  font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  color: inherit;
+}
+.body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333333;
+}
