@@ -33,24 +33,32 @@ overflow-y: hidden;
  }
 
  .btn-circle {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.42;
-  border-radius: 15px;
+  padding: 6px 6px;
+  font-size: 30px;
+  border-radius: 60px;
 }
 
-.h5 {
+
+.h4 {
+margin-left: 100px;
+float: right;
+  position: relative;
+  left: 50px;
   font-family: "Open Sans", Calibri, Candara, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
-  color: inherit;
+
 }
-.body {
+.text-center{
+  text-align: left;
+}
+
+body {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 14px;
+font-size: 20px;
 line-height: 1.42857143;
 color: #333333;
 }
