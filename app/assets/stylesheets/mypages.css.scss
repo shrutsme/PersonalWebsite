@@ -32,6 +32,7 @@ overflow-y: hidden;
   border-width: 1.5px 0;
  }
 
+
  .btn-circle {
   width: 60px;
   height: 60px;
@@ -52,8 +53,11 @@ float: right;
   line-height: 1.1;
 
 }
-.text-center{
-  text-align: left;
+
+.jumbotron  hr {
+border-top-color: orange;
+  color: orange;
+ 
 }
 
 body {
@@ -61,4 +65,13 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 20px;
 line-height: 1.42857143;
 color: #333333;
+}
+
+.img-thumbnail{
+float:left;
+  
+}
+
+.desc{
+  margin-left: 100px;
 }

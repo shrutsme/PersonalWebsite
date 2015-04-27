@@ -9,7 +9,7 @@
 			<div class="col-lg-7 " >
 				<br>
 				<h1> Hey, I'm <br><stong>SHRUTI GAUTAM</strong></h1>
-				<span>  Software Engineer, People Person, Dancer</span> <br><br>
+				<span style="color: orange;">  Software Engineer, People Person, Dancer</span> <br><br>
 				<br>
 				<div class="btn-group" style="display: inline-block">
 					<span> Connect with me @ </span>
@@ -34,7 +34,6 @@
 		</div>
 	</div>
 	
-	
 </div>
 <div class="row" >
 	<div class="jumbotron" style="background-color: white" >
@@ -52,50 +51,59 @@
 <div class= "row jumbotron" style="background-color: white" >
 	<h2 align="center">Background</h1>
 	<hr >
-	<div class="col-lg-4 col-sm-offset-2" >
+	<div class="col-lg-4 col-lg-offset-1" >
 		<div class="panel panel-success" >
 			<div class="panel-heading text-center">Education</div>
 			<div class="panel-body">
-				<div class="panel panel-default">
+				<div class="panel">
 					<div class="panel-body">
-					<div style="float:left;"><%= image_tag "cornell.jpg", class:"img-responsive img-thumbnail "%></div>
-						<div class="text-center" ><hr  >Cornell Univeristy <br>
-						Masters of Engineering <br> Computer Science  <br> Class of 2012
+						<div ><%= image_tag "cornell.jpg", class:"img-responsive img-thumbnail "%></div>
+						<div class="text-left desc"> Cornell Univeristy <br>
+							Masters of Engineering <br> Computer Science - Class of 2012
 							<br>Ithaca, New York
-						</span></div>
+						</div>
 					</div>
 				</div>
-				<div class="panel panel-default">
+				<div class="panel ">
 					<div class="panel-body">
-						<span> <%= image_tag "itass.jpg", class:"img-responsive img-thumbnail "%>
-							Delhi Colege of Engineering <br>
-						Bachelors of Engineering <br> Information Technology - Class of 2009 <br>Delhi, India</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-4">
-		<div class=" panel panel-success" >
-			<div class="panel-heading text-center">Work</div>
-			<div class="panel-body">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<%= image_tag "Oracle.jpg", class:"img-responsive img-thumbnail "%>
-						<h3>Oracle</h3>
-						<p>Software Engineer II <br> September 4, 2012 to present <br> Redwood City, California </p>
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<div>
-							<%= image_tag "itass.jpg", class:"img-responsive img-thumbnail "%>
-							<h3>Itaas, Cognizant</h3>
-							<div>
-								<p>Software Engineer <br> February 2010 to July 2011 <br> Noida, India</p>
+						<%= image_tag "DCE.jpg", class:"img-responsive img-thumbnail "%>
+						<div class="text-left desc">	Delhi Colege of Engineering <br>
+							Bachelors of Engineering <br> Information Technology - Class of 2009 <br>Delhi, India<div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="col-lg-4  col-lg-offset-2">
+		<div class=" panel panel-success" >
+			<div class="panel-heading text-center">Work</div>
+			<div class="panel-body">
+				<div class="panel ">
+					<div class="panel-body">
+						<%= image_tag "Oracle.jpg", class:"img-responsive img-thumbnail "%>
+						<div class="text-left desc">Oracle<br>
+							Software Engineer II <br> September 4, 2012 to present <br> Redwood City, California
+						</div>
+					</div>
+				</div>
+				<div class="panel ">
+					<div class="panel-body">
+						<%= image_tag "itass.jpg", class:"img-responsive img-thumbnail "%>
+						<div class="text-left desc">	Itaas, Cognizant<br>
+							Software Engineer <br> February 2010 to July 2011 <br> Noida, India
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="text-center" style="background-color: #2ec866; color: white">
+	<div class="row" >
+		<div class="col-lg-12" >
+			Copyright ©  2015, Shruti Gautam
+		</div>
+	</div>
+</footer>
