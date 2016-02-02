@@ -14,7 +14,7 @@ overflow: hidden;
 }
 .headBg{
 	display: block;
-	background-color: #e0ebe8;
+	background-color: #000000;
 	position: absolute;
 top: 0;
 left: 0;
@@ -25,6 +25,11 @@ overflow: hidden;
 overflow-x: hidden;
 overflow-y: hidden;
 }
+
+h1 {
+  color: #FFFFFF;
+}
+
  hr {
  width :30%;
   border-color: #EEEEEE -moz-use-text-color #FFFFFF;
@@ -41,6 +46,8 @@ overflow-y: hidden;
   font-size: 30px;
   border-radius: 60px;
 }
+
+
 
 
 .h4 {
