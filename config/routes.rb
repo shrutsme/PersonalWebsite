@@ -1,6 +1,7 @@
 Mypage::Application.routes.draw do
   root "mypages#home"
   get 'mypages/home', to: redirect("mypages/home", status: 301)
+  get 'mypages/shruti'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
