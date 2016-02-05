@@ -1,20 +1,22 @@
 <div class="conatiner" style="overflow:hidden">
 	<div class="row" >
-		<nav class="nav  navbar-collapse navbar-nav ">
-			<div class="container">
+		<nav class="nav  navbar-collapse  navbar-nav navbar-fixed-top" style="background-color: #FFFFFF">
+			<div class="container" >
 				
 				<ul  class="nav nav-pills  navbar-right">
 					<li  ><a href="#">Home</a></li>
 					<li ><a href="#about-me">About</a></li>
 					<li ><a href="#exp">Experience</a></li>
-					<li ><a href="#">Presentations</a></li>
-					<li ><a href="#">Projects</a></li>
-					<li ><a href="#">Educations</a></li>
+					<li ><a href="#edu">Educations</a></li>
+					<!-- <li class="disabled"><a href="#" >Presentations</a></li>
+					<li class="disabled"><a href="#" >Projects</a></li> -->
 				</ul>
 				
 			</div>
 		</nav>
+
 	</div>
+	<hr>
 	<div class="row" >
 		<div class="conatiner">
 			<div class="row" >
@@ -74,7 +76,7 @@
 			<%= render 'workExp' %>
 		</div>
 	</div>
-	<div class= "row padd-rows" >
+	<div class= "row padd-rows" id="edu">
 		<%= render 'education' %>
 	</div>
 </div>
