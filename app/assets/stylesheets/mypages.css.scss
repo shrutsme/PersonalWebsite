@@ -12,15 +12,21 @@ height:  100%;
 overflow: hidden;
 
 }
+.trial{
+  display: block;
+  top: 0;
+  bottom: 0;
+}
 .headBg{
-	display: block;
+
 	background-color: #2E0854;
 	position: absolute;
-top: 0;
+  height:300px;
+
 left: 0;
 right: 0;
-bottom: 0;
-height:300px;
+
+
 overflow: hidden;
 overflow-x: hidden;
 overflow-y: hidden;
@@ -28,6 +34,17 @@ overflow-y: hidden;
 
 #Profile-img{
   padding: 50px ;
+}
+
+.jumbo-padd{
+  padding-top: 10px ;
+  padding-left: 30px ;
+  padding-right: 50px ;
+}
+
+.padd-rows{
+  padding-top: 10px ;
+  padding-bottom: 10px ;
 }
 
 h1 {
