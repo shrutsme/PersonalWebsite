@@ -3,18 +3,17 @@
 		<nav class="nav  navbar-collapse  navbar-nav navbar-fixed-top" style="background-color: #FFFFFF">
 			<div class="container" >
 				
-				<ul  class="nav nav-pills  navbar-right">
+				<ul  class="nav nav-pills  navbar-right work-exp ">
 					<li  ><a href="#">Home</a></li>
 					<li ><a href="#about-me">About</a></li>
 					<li ><a href="#exp">Experience</a></li>
 					<li ><a href="#edu">Educations</a></li>
-					<!-- <li class="disabled"><a href="#" >Presentations</a></li>
-					<li class="disabled"><a href="#" >Projects</a></li> -->
+					<li ><a href="#presentations" >My Presentations</a></li>
+					<!-- <li class="disabled"><a href="#" >Projects</a></li> -->
 				</ul>
 				
 			</div>
 		</nav>
-
 	</div>
 	<hr>
 	<div class="row" >
@@ -23,13 +22,13 @@
 				<div class="headBg">
 				</div>
 				<div class="jumbotron" style="background-color: white; padding-bottom: 100 px" >
-					<div class="col-lg-3 col-md-3 col-xs-3 col-sm-3 " style="overflow: hidden">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-xs-3 col-sm-3 " style="overflow: hidden">
 						<%= image_tag "ProfilePic.jpg", :alt => "Shruti-Gautam", class:"img-responsive img-rounded center-block "%>
 					</div>
 					<div class="col-lg-7 " >
 						<br>
-						<h1 style="color: #FFFFFF"> Hey, I'm <br> SHRUTI GAUTAM</h1>
-						<span style="color: #FFFFFF" >  Technologist, Product Manager, Problem Solver</span> <br><br>
+						<h1 style="color: #FFFFFF"> SHRUTI GAUTAM</h1>
+						<span style="color: #FFFFFF" > Entrepreneur, Product Manager, Technologist </span> <br><br>
 						<br>
 					</div>
 				</div>
@@ -76,7 +75,16 @@
 			<%= render 'workExp' %>
 		</div>
 	</div>
-	<div class= "row padd-rows" id="edu">
+	<div class=" row padd-rows" id="presentations">
+		<div class= "jumbotron"  style="background-color: #FFFFFF">
+		<h1  class="center"  style="color: #6F4242;text-align:center">Presentations</h1>
+			<hr >
+				<div class="col-sm-4 col-sm-offset-2">
+					<iframe  class="embed-responsive-item concept-video center-block" id ="youtubePlayer" width="560" height="115" src="https://www.youtube.com/embed/Ag9VdxW-NvU" allowfullscreen></iframe>
+				</div>
+			</div>
+			</div>
+	<div class= " row padd-rows" id="edu">
 		<%= render 'education' %>
 	</div>
 </div>

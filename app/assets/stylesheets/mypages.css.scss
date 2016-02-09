@@ -40,11 +40,15 @@ overflow-y: hidden;
   padding-top: 10px ;
   padding-left: 30px ;
   padding-right: 50px ;
+  padding-bottom: 30px ;
 }
 
 .padd-rows{
-  padding-top: 10px ;
-  padding-bottom: 10px ;
+  padding-top: 50px ;
+  padding-bottom: 50px ;
+}
+#edu{padding-top: 150px ;
+  padding-bottom: 50px ;
 }
 
 h1 {
@@ -88,6 +92,13 @@ border-top-color: orange;
  
 }
 
+hr {
+border-top-color: orange;
+  color: orange;
+ 
+}
+
+
 body {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 20px;
@@ -115,4 +126,10 @@ float:left;
   font-size: 18px;
   
   overflow-x: hidden;
+}
+.concept-video{
+    max-width: 100%;  
+    width: 560px;
+    height: 315px;
+    margin-top: 30px;
 }
