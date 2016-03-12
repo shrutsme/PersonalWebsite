@@ -1,10 +1,13 @@
 Mypage::Application.routes.draw do
   root "mypages#shruti"
+  #root "mypages#hacthon"
   get 'mypages/home', to: redirect("mypages/home", status: 301)
   get 'mypages/shruti'
   get 'mypages/new'
   get "invitation/workExp"
   get "invitation/workExp"
+  get 'hackthon/new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
